@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    background-color:red;
 }
 
 body {
@@ -16,4 +17,19 @@ a {
 .social-image{
     width: 30px;
     margin: 15px;
+}
+
+.header{
+    display:flex;
+    justify-content:center;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+}
+
+.footer{
+    display:flex;
+    justify-content:center;
 }
