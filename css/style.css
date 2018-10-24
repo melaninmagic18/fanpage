@@ -1,10 +1,12 @@
 html {
     height: 100%;
     background-color:red;
+    background-image:url("http://photo.elcinema.com.s3.amazonaws.com/uploads/_315x420_3f79cead5971c68ae7304d51c057d07873f0eeba6b227122fd7c724b10284eeb.jpg");
 }
 
 body {
     height: 100%;
+
     
 }
 a {
@@ -19,6 +21,7 @@ a {
     margin: 15px;
 }
 
+
 .header{
     display:flex;
     justify-content:center;
@@ -32,4 +35,20 @@ a {
 .footer{
     display:flex;
     justify-content:center;
+}
+
+.leftPane{
+    font-size: 25px;
+    color:red;
+}
+
+.thumbnail-image{
+    width:400px;
+    border:20px;
+    margin: 20px;
+}
+    
+.gallery{    
+    display:flex;
+    justify-content:space-between;
 }
